@@ -1,0 +1,39 @@
+.body {
+  font-family: "Helvetica", sans-serif;
+}
+
+.app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.app .timer {
+  text-align: center;
+  width: 160px;
+  padding: 15px;
+  background-color: #171717;
+  color: #F3F3F3;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.app .buttons {
+  text-align: center;
+  width: 160px;
+  padding: 15px;
+  background: #F3F3F3;
+  border-radius: 0px 0px 8px 8px;
+}
+/*# sourceMappingURL=main.css.map */
